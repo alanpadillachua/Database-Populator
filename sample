@@ -1,0 +1,1210 @@
+C:\Users\Foxing\AppData\Local\Programs\Python\Python35-32\python.exe C:/Users/Foxing/PycharmProjects/Database-Populator/DataPop.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Category:Jedi Commanders | Wookieepedia | Fandom powered by Wikia
+
+a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: starwars:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+
+var Wikia={},
+wgUseSiteJs=true,
+wgWikiVertical="movies",
+wgWikiCategories=[],
+JSSnippetsStack=[],
+wgPaidAssetDropConfig=["2015-10-22T09:00:00-07:00","2016-01-01T23:59:59-07:00"],
+ads={"context":{"opts":{"adsInContent":1,"delayBtf":true,"enableAdsInMaps":true,"pageType":"all_ads","paidAssetDropConfig":["2015-10-22T09:00:00-07:00","2016-01-01T23:59:59-07:00"],"showAds":true,"sourcePointDetectionUrl":"http://starwars.wikia.com/__load/-/cb%3D1489099833%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/d63a80f38ab015cdc557794690c7f172","yavliUrl":"http://starwars.wikia.com/__load/-/cb%3D1489099833%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/e0a86532f42c815a42f9780f4efc8647","pageFairDetectionUrl":"http://starwars.wikia.com/__load/-/cb%3D1489099833%26debug%3Dfalse%26lang%3Den%26only%3Dscripts%26skin%3Doasis/9cc553caba8a1cd059b265bbe191e898","prebidBidderUrl":["http://slot1.images4.wikia.nocookie.net/__am/1489099833/group/-/prebid_prod_js"],"sourcePointRecovery":null,"sourcePointMMS":false,"sourcePointMMSDomain":"mms.bre.wikia.com","pageFairRecovery":null},"targeting":{"enableKruxTargeting":true,"enablePageCategories":true,"esrbRating":"teen","mappedVerticalName":"ent","pageArticleId":143702,"pageIsArticle":true,"pageName":"Category:Jedi_Commanders","pageType":"article","skin":"oasis","wikiCategory":"ent","wikiCustomKeyValues":"sex=m;age=teen;age=kids;age=under18;age=18-24;age=18-34;age=25-34;gnre=scifi;esrb=everyone;esrb=teen;gnre=action;gnre=adventure;gnre=scifi;media=movie;media=cards;media=books;media=comics;theme=space;theme=heroes","wikiDbName":"starwars","wikiIsTop1000":true,"wikiLanguage":"en","wikiVertical":"movies","newWikiCategories":["ent"]},"providers":{"evolve2":true,"rubiconFastlane":true,"taboola":true},"slots":{"invisibleHighImpact":true},"forcedProvider":null},"runtime":{"disableBtf":false}},
+adslots2=[],
+adDriverLastDARTCallNoAds=[],
+adDriver2ForcedStatus=[],
+wgGaHasAds=true,
+wgAfterContentAndJS=[],
+wgWikiFactoryTagIds=[5,8,10,13,14,15,20,21,129,142,144,100024,100041,100042,100043,100044,100046,100047,100049,100062,100063,100065,100066,100069,100071,100072,100083,100087,100100,100428,100449,100455,100583,100596,100619],
+wgWikiFactoryTagNames=["movie","action/adventure","fantasy","teens_(14-17)","kids_(13)","male","adults_(18-35)","adults_(35+)","entertainment","dvd/blu-ray","sci_fi","test","top_25_entertainment","top_50_entertainment","top_75_entertainment","top_100_entertainment","frontline","widget","widget_frontline","starwars","skin","tandem","tandem_2","auctionhuntersskins","auction","hunters","adss_high","gameflybutton","sanctum","apertureenabled","sensitive","krux","seo_removals","comscore_starwars","fandom-stories-search"],
+wgCdnRootUrl="http://slot1.images.wikia.nocookie.net",
+wgCdnApiUrl="http://api.wikia.nocookie.net/__cb1489099833",
+wgDBname="starwars",
+wgCityId="147",
+wgContentLanguage="en",
+wgUserName=null,
+wgArticleId=143702,
+wgCategories=["Republic Army officers","Jedi individuals"],
+wgPageName="Category:Jedi_Commanders",
+wikiaPageType="article",
+wikiaPageIsCorporate=false,
+wgArticleType="other",
+wgNamespaceNumber=14,
+skin="oasis",
+_gaq=[],
+wgIsGASpecialWiki=true,
+wgStyleVersion="1489099833",
+wgTransactionContext={"type":"page/category","env":"prod","hostname":"ap-s303","php_version":"7.0.7","wiki":"starwars","entry_point":"page","namespace":14,"logged_in":false,"action":"view","skin":"oasis","parser_cache_used":true,"size_category":"simple"},
+wgDiscussionsApiUrl="https://services.wikia.com/discussion",
+wgSeoTestingBucket=-4,
+wgOnSiteNotificationsApiUrl="https://services.wikia.com/on-site-notifications";
+window.mw||(mw={fk:1,loader:{state:function(s){preMwLdrStA=window.preMwLdrStA||[];preMwLdrStA.push(s)}}});
+var wgNow = new Date();
+
+
+
+(function() {
+	var result = RegExp("wikia_beacon_id=([A-Za-z0-9_-]{10})").exec(document.cookie);
+	if(result) {
+		window.beacon_id = result[1];
+	} else {
+		// something went terribly wrong
+		document.write('<img src="http://logs-01.loggly.com/inputs/88a88e56-77c6-49cc-af41-6f44f83fe7fe.gif?message=wikia_beacon_id%20is%20empty" style="position:absolute;top:-1000px" />');
+	}
+
+	var utma = RegExp("__utma=([0-9\.]+)").exec(document.cookie);
+	var utmb = RegExp("__utmb=([0-9\.]+)").exec(document.cookie);
+
+	var trackUrl = "http://a.wikia-beacon.com/__track/view?cb=1489099833&amp;c=147&amp;lc=en&amp;lid=75&amp;x=starwars&amp;y=c4&amp;u=0&amp;a=143702&amp;s=oasis&amp;beacon=&amp;n=14" + ((typeof document.referrer != "undefined") ? "&amp;r=" + escape(document.referrer) : "") + "&amp;rand=" + (new Date).valueOf() + (window.beacon_id ? "&amp;beacon=" + window.beacon_id : "") + (utma && utma[1] ? "&amp;utma=" + utma[1] : "") + (utmb && utmb[1] ? "&amp;utmb=" + utmb[1] : "");
+	document.write('<'+'script type="text/javascript" src="' + trackUrl + '"><'+'/script>');
+})();
+
+
+/*<![CDATA[*/window.mw.fk&&delete mw;/*]]>*/
+
+
+	require([
+		"ext.wikia.adEngine.adContext"
+	], function (adContext) {
+		var context = adContext.getContext();
+
+		if (context.opts.pageFairRecovery === true && !window.wgUserName) {
+			/* observer-6.0.6 */!function e(t,n,o){function r(i,u){if(!n[i]){if(!t[i]){var c="function"==typeof require&&require;if(!u&&c)return c(i,!0);if(a)return a(i,!0);var d=new Error("Cannot find module '"+i+"'");throw d.code="MODULE_NOT_FOUND",d}var f=n[i]={exports:{}};t[i][0].call(f.exports,function(e){var n=t[i][1][e];return r(n?n:e)},f,f.exports,e,t,n,o)}return n[i].exports}for(var a="function"==typeof require&&require,i=0;i<o.length;i++)r(o[i]);return r}({1:[function(e,t,n){(function(e){function n(){try{var e=new o("cat",{detail:{foo:"bar"}});return"cat"===e.type&&"bar"===e.detail.foo}catch(t){}return!1}var o=e.CustomEvent;t.exports=n()?o:"undefined"!=typeof document&&"function"==typeof document.createEvent?function(e,t){var n=document.createEvent("CustomEvent");return t?n.initCustomEvent(e,t.bubbles,t.cancelable,t.detail):n.initCustomEvent(e,!1,!1,void 0),n}:function(e,t){var n=document.createEventObject();return n.type=e,t?(n.bubbles=Boolean(t.bubbles),n.cancelable=Boolean(t.cancelable),n.detail=t.detail):(n.bubbles=!1,n.cancelable=!1,n.detail=void 0),n}}).call(this,"undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{})},{}],2:[function(e,t,n){function o(e,t,n,o){"addEventListener"in e?e.addEventListener(t,n,o):"attachEvent"in e&&e.attachEvent("on"+t,n)}var r=e(1);!function(){window.adonis=window.adonis||{},window.adonis.scriptStatuses={};var e=function(){var e="NEW_SCRIPT_EVENT",t=new r(e,{detail:{}});window.dispatchEvent(t)};o(document,"load",function(t){t.target&&"SCRIPT"===t.target.nodeName&&(window.adonis.scriptStatuses[t.target.src]="load",e())},!0),o(document,"error",function(t){t.target&&"SCRIPT"===t.target.nodeName&&(window.adonis.scriptStatuses[t.target.src]="error",e())},!0)}()},{1:1}]},{},[2]);
+
+		}
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	require([
+		"ext.wikia.adEngine.adContext"
+	], function (adContext) {
+		var context = adContext.getContext();
+
+		if (context.opts.pageFairRecovery === true && !window.wgUserName) {
+			/* wrapper-6.0.6 */!function e(t,n,r){function o(a,c){if(!n[a]){if(!t[a]){var s="function"==typeof require&&require;if(!c&&s)return s(a,!0);if(i)return i(a,!0);var d=new Error("Cannot find module '"+a+"'");throw d.code="MODULE_NOT_FOUND",d}var u=n[a]={exports:{}};t[a][0].call(u.exports,function(e){var n=t[a][1][e];return o(n?n:e)},u,u.exports,e,t,n,r)}return n[a].exports}for(var i="function"==typeof require&&require,a=0;a<r.length;a++)o(r[a]);return o}({1:[function(e,t,n){!function(){function t(){o&&console.log.apply(console,arguments)}var n=e(4),r=window.RTCPeerConnection||window.mozRTCPeerConnection||window.webkitRTCPeerConnection;if(!r)return void n.reportEvent("bootstrap.ifw.rtc.absent");n.reportEvent("bootstrap.ifw.rtc.exists"),window.adonisHash=window.location.hash;var o=window.adonisHash.indexOf("adonis-logging")!==-1,i=function(e){var t=function(){e===!0&&console.log.apply(console,arguments)},n=["script","img"];document.addEventListener("load",function(e){t("withinIframe load event",e.target),!e.target||"SCRIPT"!==e.target.nodeName&&"IMG"!==e.target.nodeName||(e.target._loadState="load")},!0),document.addEventListener("error",function(e){t("withinIframe error event",e.target),!e.target||"SCRIPT"!==e.target.nodeName&&"IMG"!==e.target.nodeName||(e.target._loadState="error")},!0),window.addEventListener("message",function(e){if(void 0!==e.data.iframeId){t("message received "+e.data.iframeId);var r=e.data,o=function(e){"loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e)},i=function(e){var r={originIframeId:e.iframeId,readyState:document.readyState,requestData:[],cssData:[]},o=e.srcSubstrings;if(void 0!==o)for(var a=document.querySelectorAll(n.join(",")),c=0;c<a.length;c++){var s=a[c];if(s.src){var d=o.some(function(e){return s.src.indexOf(e)!==-1});if(d){if(void 0===s._loadState)return t("Wait for event from "+s.src),s.addEventListener("load",function(){i(e)}),void s.addEventListener("error",function(){i(e)});r.requestData.push({type:s.nodeName,src:s.src,state:s._loadState})}}}var u=e.displayTypes,f=e.cssAttributes;void 0!==u&&void 0!==f&&(a=document.querySelectorAll(u.join(",")),Array.prototype.forEach.call(a,function(e){var t=window.getComputedStyle(e),n={};f.forEach(function(e){n[e]=t.getPropertyValue(e)}),r.cssData.push({type:e.nodeName,id:e.id,"class":e.getAttribute("class"),cssAttributes:n})})),t("send response "+e.iframeId),parent.postMessage(r,"*")};o(function(){i(r)})}})},a=['<script type="text/javascript">(',i.toString(),")(",o.toString(),")<","/script>"].join(""),c=function(e,t,n,r){var o=Object.getOwnPropertyDescriptor(e.prototype,t);Object.defineProperty(e.prototype,t,{get:function(){return n(o.get,this,arguments)},set:function(){return r(o.set,this,arguments)},enumerable:!0})},s=function(e,t,n){return e.apply(t,n)},d=function(e,n,r){try{var o=r[0];if(o.indexOf("html")!==-1){var i=o.split(";"),c=i[1],s=parseInt(c)+a.length;i[1]=s.toString(),o=i.join(";"),o=o.replace("<head>","<head>"+a),r[0]=o}}catch(d){t(d)}return e.apply(n,r)};c(HTMLIFrameElement,"name",s,d);var u=function(e){var t=!1;if(e.src&&0!==e.src.indexOf("javascript:")&&0!==e.src.indexOf("about:blank")){var n=document.createElement("a");n.href=e.src;var r=n.host;r===window.location.host&&(t=!0)}else t=!0;return t},f=function(e,n){if(void 0===n._writeDecorated){n._writeDecorated=!0;var r=n.write;n.write=function(e){try{this._injected||(e.indexOf("<head>")!==-1?(e=e.replace("<head>","<head>"+a),this._injected=!0):e.indexOf("<script")!==-1&&(e=e.replace(/(<script.*?>)/,a+"$1"),this._injected=!0))}catch(n){t(n)}return r.call(this,e)}}},p=function(e,n,r){var o=e.apply(n,r);try{u(n)&&f(n,o)}catch(i){t(i)}return o},l=function(e,t,n){return e.apply(t,n)};c(HTMLIFrameElement,"contentDocument",p,l);var v=function(e,n,r){var o=e.apply(n,r);try{u(n)&&f(n,o.document)}catch(i){t(i)}return o},m=function(e,t,n){return e.apply(t,n)};c(HTMLIFrameElement,"contentWindow",v,m)}()},{4:4}],2:[function(e,t,n){var r=e(3);t.exports=r},{3:3}],3:[function(e,t,n){t.exports={REAL_STUN_HOST:"stun.xpanama.net:3478",TURNSIGNAL_HOST:"ts.p.xpanama.net:7000",STUNGUN_HOST:"sg.p.xpanama.net:3480",SERVER_CANDIDATE:"candidate:827648026 1 udp 2122194687 SERVER_IP SERVER_PORT typ host generation 0",REPORTING_URL:"https://lb.statsevent.com/stats",REPORTING_RATE:.01,LOG_LEVEL:"error",REPORT_ERRORS:!0,MANIFEST_URL:"https://sri.jsintegrity.com/manifest.json",MANIFEST_EXPIRATION_TIME:86400,AD_MARKER:"adonis-marker"}},{}],4:[function(e,t,n){function r(e){var t=new XMLHttpRequest,n=[d.REPORTING_URL,e].join("");t.open("GET",n,!0),t.send()}function o(e){r("/adonis_error?e="+e.toString())}function i(){return null!=window.ADONIS_BOOTSTRAP_STATS?window.ADONIS_BOOTSTRAP_STATS===!0:Math.random()<d.REPORTING_RATE}function a(e,t){if(c(e),i()){var n={website:window.location.hostname,key:e};null!=t&&(n.quantity=t),r(["/adonis_event/?event=",JSON.stringify(n)].join(""))}}function c(e){var t={key:e,time_ms:Math.round(window.performance.now()),website:window.location.hostname};f.push(t)}function s(){u.defineReadOnlyProperty("adonisBootstrapTiming",f)}var d=e(2),u=e(5),f=[];t.exports={reportError:o,reportEvent:a,saveTiming:s,shouldReport:i}},{2:2,5:5}],5:[function(e,t,n){function r(e,t){Object.defineProperty(window,e,{value:t,writable:!1})}function o(e,t){return!t||Number(t)<=e}function i(e){var t=(new Date).getTime()/1e3;return o(t,e)}var a=function(){var e=window.navigator.userAgent.toLowerCase(),t=/(chrome)[ \/]([\w.]+)/.exec(e)||/(firefox)[ \/]([\w.]+)/.exec(e);if(null!==t){var n=t[1],r=t[2],o=parseInt(r.split(".")[0]);if("chrome"===n&&o>=41||"firefox"===n&&o>=37)return!0}return!1},c=function(e){"loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e)};t.exports={isSupportedBrowser:a,defineReadOnlyProperty:r,ready:c,isExpired:o,isExpiredNow:i}},{}]},{},[1]);
+
+		}
+	});
+
+
+
+
+
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "6177433",
+	options: {
+		url_append: "comscorekw=wikiacsid_starwars"
+	}
+});
+
+(function() {
+	var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	el.parentNode.insertBefore(s, el);
+})();
+
+
+
+
+
+
+
+  var _qevents = _qevents || [];
+
+  (function() {
+   var elem = document.createElement('script');
+
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);
+  })();
+
+
+var quantcastLabels = "";
+if (window.wgWikiVertical) {
+	quantcastLabels += wgWikiVertical;
+	if (window.wgDartCustomKeyValues) {
+		var keyValues = wgDartCustomKeyValues.split(';');
+		for (var i=0; i<keyValues.length; i++) {
+			var keyValue = keyValues[i].split('=');
+			if (keyValue.length >= 2) {
+				quantcastLabels += ',' + wgWikiVertical + '.' + keyValue[1];
+			}
+		}
+	}
+}
+_qevents.push( { qacct:"p-8bG6eLqkH6Avk", labels:quantcastLabels } );
+
+
+
+
+
+
+	require([
+		'wikia.geo',
+		'wikia.instantGlobals',
+		require.optional('ext.wikia.adEngine.lookup.rubicon.rubiconFastlane')
+	], function (geo, globals, bidder) {
+		var countries = globals['wgAdDriverRubiconFastlaneCountries'];
+
+		if (bidder && geo.isProperGeo(countries)) {
+			bidder.call();
+		}
+	});
+
+
+
+	require([
+		"wikia.geo",
+		"wikia.instantGlobals",
+		require.optional("ext.wikia.adEngine.lookup.amazonMatch"),
+	], function (geo, globals, amazon) {
+		var ac = globals["wgAmazonMatchCountries"];
+
+		if (geo.isProperGeo(ac)) {
+			amazon.call();
+		}
+	});
+
+
+
+	require([
+		"wikia.geo",
+		"wikia.querystring",
+		"wikia.instantGlobals",
+		require.optional("ext.wikia.adEngine.lookup.openXBidder")
+	], function (geo, Querystring, globals, oxBidder) {
+		var ac = globals["wgAdDriverOpenXBidderCountries"],
+			qs = new Querystring();
+
+		if (geo.isProperGeo(ac) || qs.getVal('oxbidder', '0') === '1') {
+			oxBidder.call();
+		};
+	});
+
+
+
+	require([
+		'wikia.geo',
+		'wikia.instantGlobals',
+		'ext.wikia.adEngine.lookup.prebid'
+	], function (geo, globals, prebid) {
+		var ac = globals['wgAdDriverPrebidBidderCountries'];
+
+		if (geo.isProperGeo(ac)) {
+			prebid.call();
+		}
+	});
+
+
+
+	require([
+		'wikia.geo',
+		'wikia.instantGlobals',
+		require.optional('ext.wikia.adEngine.lookup.rubicon.rubiconVulcan')
+	], function (geo, globals, bidder) {
+		var countries = globals['wgAdDriverRubiconVulcanCountries'];
+
+		if (bidder && geo.isProperGeo(countries)) {
+			bidder.call();
+		}
+	});
+
+
+
+	require(['wikia.krux'], function (krux) {
+		krux.load('JU3_GW1b');
+	});
+
+
+
+
+require(['wikia.geo', 'wikia.instantGlobals'], function(geo, instantGlobals) {
+	var url = "//s.adadapter.netzathleten-media.de/API-1.0/NA-828433-1/naMediaAd.js",
+		scriptElementNetzAthleten = document.createElement("script");
+	if (geo.isProperGeo(instantGlobals.wgAdDriverNetzAthletenCountries)) {
+		scriptElementNetzAthleten.type = "text/javascript";
+		scriptElementNetzAthleten.src = url;
+
+		scriptElementNetzAthleten.addEventListener("load", function(){
+			window.naMediaAd.setValue("homesite", window.wgIsMainpage);
+		});
+		document.head.appendChild(scriptElementNetzAthleten);
+	}
+});
+
+
+
+
+	var iam_data = {
+		st: 'wikia',
+		cp: 'movies/pc',
+		sv: 'i2'
+	};
+
+	if (window.Wikia &&
+		window.Wikia.InstantGlobals &&
+		!window.Wikia.InstantGlobals.wgSitewideDisableIVW3 &&
+		window.Wikia.geo.isProperGeo(["AT","CH"])
+	) {
+		window.ivw3Initialized = true;
+		document.write('<script type="text/javascript" src="https://script.ioam.de/iam.js"><\/script>');
+		document.write('<script type="text/javascript">window.iom.c(iam_data, 2);<\/script>');
+	}
+
+
+
+
+	require([
+		"ext.wikia.adEngine.adContext"
+	], function (adContext) {
+		var context = adContext.getContext(),
+		logGroup = 'ext.wikia.aRecoveryEngine.recovery.bootstrap';
+
+		if (context.opts.sourcePointBootstrap === true) {
+			window._sp_ = window._sp_ || {};
+			window._sp_.config = window._sp_.config || {};
+			window._sp_.config.account_id = 106;
+
+			!function(o){function n(e){if(t[e])return t[e].exports;var i=t[e]={exports:{},id:e,loaded:!1};return o[e].call(i.exports,i,i.exports,n),i.loaded=!0,i.exports}var t={};return n.m=o,n.c=t,n.p="",n(0)}({0:function(o,n,t){"use strict";function e(o){return o&&o.__esModule?o:{default:o}}function i(){if(!P){P=!0,window._sp_=window._sp_||{},H=window._sp_.config=window._sp_.config||{},window._sp_._networkListenerData=(0,m.default)(),K=H.content_control_callback||window._sp_lock,q=H.account_id||H.client_id||window.sp_cid;for(var o in H)T[o]=H[o]}}function r(o,n,t){function e(t,e){var r=new Image;r.src="//"+L+("/cct?v="+encodeURIComponent(C))+("&ct="+x)+("&cid="+encodeURIComponent(q))+("&l="+encodeURIComponent(o.toString()))+("&rc="+encodeURIComponent(n))+("&d0="+encodeURIComponent(i))+(t?"&d1="+encodeURIComponent(t):"")+(e?"&d2="+encodeURIComponent(e):""),a&&a()}var i=arguments.length>3&&void 0!==arguments[3]?arguments[3]:"",r=arguments[4],a=arguments[5];if(r){var d=t.lastIndexOf("."),c=t.lastIndexOf("/"),s=d===-1||c>d?t+".png":t.substring(0,d)+".png",u=new Image;u.addEventListener("load",function(){e("1",s)}),u.addEventListener("error",function(){(0,_.default)(s,function(o,n,t){e("0",s+"::"+t)})}),u.src=s}else e()}function a(o,n,t,e){var i=arguments.length>4&&void 0!==arguments[4]?arguments[4]:{},r=arguments.length>5&&void 0!==arguments[5]&&arguments[5],d=function(){return a(o,n,t,e,i,!0)},c=r?t:d;o(n,c,e,i)}function d(o,n,t,e){function i(t,i){n(t,o,i,e.enableImageLoad)}function r(n,i){t(n,o,i,e.enableImageLoad),e.onError&&e.onError(i)}var a=document.createElement("script");a.src=o,a.onload=function(){try{if(window._sp_&&window._sp_.bootstrap===f&&window.spBootstrap===w&&window._sp_.config===H){for(var o in T)if(T[o]!==H[o]){E&&E();break}}else E&&E()}catch(o){E&&E()}e.onLoad&&e.onLoad()},a.onerror=function(){function n(o){return t.indexOf(o)>-1}var t=(navigator.userAgent||navigator.vendor||window.opera).toLowerCase();n("mobi")||n("ipad")||n("android")||n("iphone")?r(R):n("exabot")?r(N):n("bingbot")||n("bingpreview")?r(M):n("googlebot")||n("adsbot-google")||n("mediapartners-google")?r(S):n("googleweblight")?r(k):window.location.host===b?r(U):window.location.host.indexOf(h)>-1?r(B):n("msie 10")||n("msie 9")||n("msie 8")?r(D):c(o,i,r)},document.head.appendChild(a),document.querySelector('script[src="'+o+'"]')||window.location.host.indexOf(h)!==-1||i(y,o)}function c(o,n,t){(0,_.default)(o,function(e,i,r,a){var d=e||i?n:t;d(a,o+"::"+r)})}function s(o,n,t,e){return A?void u(j+"::"+o,t):void r(O,o,n,t,e,function(){K&&setTimeout(function(){K()},250)})}function u(o,n,t,e){r(I,o,n,t,e)}function w(o,n){i(),n&&(K=window._sp_lock=n),a(d,o,s,u)}function f(o,n){i(),a(d,o,s,u,n)}var l=t(420),p=e(l),v=t(117),_=e(v),g=t(189),m=e(g),b=["w","e","b","c","a","c","h","e",".","g","o","o","g","l","e","u","s","e","r","c","o","n","t","e","n","t",".","c","o","m"].join(""),h=["o","p","t","i","m","i","z","e","l","y","p","r","e","v","i","e","w",".","c","o","m"].join(""),E=void 0;try{E=window._sp_&&window._sp_.config&&window._sp_.config.spid_control_callback}catch(o){}var L=p.default.be.join(""),C=p.default.bv,x=1,I=0,O=1,y="s",R="m",S="g",U="gw",k="gl",D="i",M="b",N="e",j="n",B="o",T={},P=!1,A=!1,H=void 0,K=void 0,q=void 0;window.addEventListener("beforeunload",function(){A=!0});try{window._sp_=window._sp_||{},window._sp_.bootstrap=f,window.spBootstrap=w,window._sp_.bootstrap===f&&window.spBootstrap===w||E&&E()}catch(o){E&&E()}},117:function(o,n){"use strict";function t(o,n){function t(o){try{return o&&o.timeStamp?o.timeStamp:window.performance.now()}catch(o){return Date.now()}}var c=document.createElement("a");if(c.href=o,"https:"===window.location.protocol&&c.protocol!==window.location.protocol)return void n(!1,!1,c.protocol,d);var s=new XMLHttpRequest;try{s.open("GET",o)}catch(o){return void n(!0,!1,o.toString(),r,s)}var u=void 0,w=void 0;s.onloadstart=function(o){u=t(o)},s.onreadystatechange=function(o){if(4===this.readyState){w=t(o)-u;var r=0===this.status,a="2"===this.status.toString()[0],d=a?i:e;return void n(r,a,this.status+"::"+w,d,s)}};try{s.send()}catch(o){return void n(!0,!1,o.toString(),a,s)}}Object.defineProperty(n,"__esModule",{value:!0}),n.default=t;var e=n.NETWORK_FAILURE="n",i=n.XHR_SUCCEEDED="nx",r=n.OPEN_BLOCKED="xo",a=n.SEND_BLOCKED="xs",d=n.PROTOCOL_MISMATCH="p"},189:function(o,n){"use strict";function t(){var o=arguments.length>0&&void 0!==arguments[0]?arguments[0]:document,n=[],t=[],i=e.bind(null,n),r=e.bind(null,t);return o.addEventListener("load",i,!0),o.addEventListener("error",r,!0),{load:{events:n,listener:i},error:{events:t,listener:r}}}function e(o,n){if(n.target){var t="string"==typeof n.target.tagName?n.target.tagName.toLowerCase():"",e=n.target.src||"";o.push({tagName:t,src:e})}}Object.defineProperty(n,"__esModule",{value:!0}),n.default=t},420:function(o,n){"use strict";o.exports={be:["w","w","w",".","r","o","o","s","t","e","r","f","i","r","e","w","o","r","k",".","c","o","m"],bv:"1.7.640"}}});
+//# sourceMappingURL=https://s3.amazonaws.com/d3jlsadfjkuern/1.7.640/Ym9vdHN0cmFwLmpz.map
+
+			window._sp_.config.content_control_callback = function () {
+				window.Wikia.log('content_control_callback called', window.Wikia.log.levels.debug, logGroup);
+				if (!window.wgUserName) {
+					document.getElementById('WikiaArticle').style.display = 'none';
+					document.getElementById('WikiaArticleMsg').style.display = 'block';
+					window.addEventListener('load', function () {
+						require(['ext.wikia.aRecoveryEngine.recovery.sourcePointHelper'], function (helper) {
+							'use strict';
+							helper.track('callback');
+						});
+					});
+				} else {
+					window.Wikia.log(['getBootstrap', 'content control disabled - user is logged in', window.wgUserName], 'debug', logGroup);
+				}
+			};
+		}
+
+		if (context.opts.sourcePointRecovery === true) {
+			window._sp_.config.publisher_base = 'http://starwars.wikia.com/__bre';
+			window._sp_.config.enable_rid = true;
+
+			window._sp_.bootstrap('http://starwars.wikia.com/api/v1/ARecoveryEngine/delivery');
+
+			window.addEventListener('load', function () {
+				require(['ext.wikia.aRecoveryEngine.recovery.sourcePointHelper'], function (helper) {
+					helper.verifyContent();
+				});
+			});
+		} else if (context.opts.sourcePointMMS === true) {
+			var mmsDomain = context.opts.sourcePointMMSDomain;
+
+			window._sp_.mms = window._sp_.mms || {};
+			window._sp_.mms.cmd = window._sp_.mms.cmd || [];
+
+			window._sp_.bootstrap('http://starwars.wikia.com/api/v1/ARecoveryEngine/SourcePointMessaging');
+			window._sp_.bootstrap('http://starwars.wikia.com/api/v1/ARecoveryEngine/SourcePointMMSClient');
+
+			window.addEventListener('load', function() {
+				window._sp_.config.mms_domain = mmsDomain;
+				window._sp_.config.mms_client_data_callback = function () {
+					window.Wikia.log(['getBootstrap', 'mms_client_data_callback called', arguments], window.Wikia.log.levels.debug, logGroup);
+				};
+
+				window._sp_.mms.cmd.push(function () {
+					window._sp_.mms.setTargeting("showmessage", "yes");
+				});
+				window._sp_.mms.cmd.push(function () {
+					window._sp_.mms.startMsg();
+				});
+			});
+		} else {
+			window.Wikia.log(['getBootstrap', 'MMS and Recovery are disabled'], window.Wikia.log.levels.debug, logGroup);
+		}
+	});
+
+
+
+
+	require([
+		'wikia.document',
+		'wikia.geo',
+		'wikia.instantGlobals'
+	], function (doc, geo, globals) {
+		var acceptedCountries = globals['wgAdDriverGoogleFundingChoicesCountries'],
+			script;
+
+		if (geo.isProperGeo(acceptedCountries)) {
+			script = doc.createElement('script');
+			script.src = 'https://contributor.google.com/scripts/63838b5c087240ba/loader.js';
+
+			doc.head.appendChild(script);
+			(function(){var g=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null"; else if("function"==b&&"undefined"==typeof a.call)return"object";return b};var h=function(a){"function"==g(a)&&a()},k=function(a,b,c){a.addEventListener?a.addEventListener(b,c):a.attachEvent&&a.attachEvent("on"+b,c)},l=function(a,b){var c=a.indexOf(b);return 0<=c?parseInt(a.substring(c+b.length,a.indexOf(".",c)),10):-1},m=-2;var n=function(a,b,c,f){var d=new Date;k(b,"load",function(){var e;if(-2===m){e=window.navigator.userAgent;var t=l(e,"MSIE ");m=0<=t?t:0<=e.indexOf("Trident/")?11:l(e,"Edge/")}e=m;-1!==e&&11>=e&&a.a[b.src]>=d?h(f):h(c)});k(b,"error",function(){h(f)})},p=function(a,b,c,f){var d=document.createElement("script");n(a,d,function(){h(c);d&&d.parentNode&&d.parentNode.removeChild(d)},function(){h(f);d&&d.parentNode&&d.parentNode.removeChild(d)});d.async=!0;d.src=b;document.getElementsByTagName("head")[0].appendChild(d)}, q=function(a,b,c,f,d,e){0>=d?h(f):p(a,b,c,function(){e?window.setTimeout(function(){q(a,b,c,f,d-1)},e):q(a,b,c,f,d-1)})};var r=new function(){this.a={}},v=function(){h(window.stop);document.body&&document.body.parentNode.removeChild(document.body);document.getElementsByTagName("HTML")[0].appendChild(document.createElement("BODY"));var a=document.createElement("IFRAME");a.src="https:\/\/p.w.m80fg.com\/s\/err?w\x3d63838b5c087240ba";a.style.width="100%";a.style.height="100%";a.style.background="white";a.style.border="none";a.style.zIndex=2147483647;document.body.appendChild(a);a=document.createElement("STYLE");a.innerText="body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }"; document.head.appendChild(a);a="https:\/\/p.d.em0n.com\/v4\/AAAACgAA_VB9AJgQOcqasVseUvGxTgAA_WD4J5g0043gpWpIDFLUVhCz28LxG7a2oVpxfMkbeYQprNSc9dOJcg?ls="+encodeURIComponent(JSON.stringify(u));p(r,a,null,null)},u=[0,0],w=function(a,b){u[a]=b;(3===u[1]||2===u[0]&&2===u[1])&&v()};window["mjbhyt"]=v;q(r,"https:\/\/p.d.em0n.com\/v4\/AAAACgAA_VB9AJgQOcqasVseUvGxTgAA_82nzXg00869QJGQ8jk-Yj6968DmvEUJcrD5PJ5p9pV62tBKqSw6uGUP3x3-SfgG0ueMPcFyZ_jBbWwiKD7VMgtpucMiegzjw",function(){window["VB9AJgQOco"]||w(1,3)},function(){w(1,2)},3,450);var x=q,y,z=("&"+window.location.search.substring(1)).split("&gmefkevpis=");y=1<z.length?"?gmefkevpis="+z[1].split("&")[0]:""; for(var A=("; "+document.cookie).split("; ymrhmm="),B=[],C=1;C<A.length;C++)B.push(A[C].split(";")[0]);x(r,"https:\/\/p.d.em0n.com\/v4\/AAAACgAA_VB9AJgQOcqasVseUvGxTgAA_Ztzmqw00861D418gz1pLpm38GQIAtZuw7S2B3XJz_4MS_sl-cwds5gaMiv9tKJDSVX4Kb-xDsyrtMM4Rnhz5GTnd24ve6moA"+B.join(",")+y,null,function(){w(0,2)},3,550);}).call(this);
+		}
+	});
+
+
+Fandom
+
+Skip to Content
+Skip to Wiki Navigation
+Skip to Site Navigation
+
+
+
+
+
+
+
+
+
+
+	Games
+
+	Movies
+
+	TV
+
+
+Wikis
+
+
+
+
+	Explore Wikis
+
+
+	Community Central
+
+
+	Fandom University
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ My Account
+
+
+
+
+	Sign In
+
+ Don't have an account?
+
+	Register
+
+
+
+
+
+
+Start a Wiki
+
+
+
+
+
+
+
+
+
+
+							window.adslots2.push(["TOP_LEADERBOARD"]);
+
+
+
+
+
+
+							window.adslots2.push(["TOP_BUTTON_WIDE"]);
+
+
+
+
+
+
+
+							window.adslots2.push(["INVISIBLE_SKIN"]);
+
+
+
+
+
+
+
+Advertisement
+
+
+
+
+
+
+
+
+
+			window.adslots2.push(["TOP_LEADERBOARD_AB"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wookieepedia Navigation
+
+
+Status Articles
+
+
+Featured articles
+
+
+Darth Caedus
+
+
+Executor
+
+
+Wraith Squadron
+
+
+Hero of Tython
+
+
+Cad Bane
+
+
+Lumiya
+
+
+
+
+Good articles
+
+
+Comprehensive articles
+
+
+Article nominations
+
+
+Featured article nominations
+
+
+Good article nominations
+
+
+Comprehensive article nominations
+
+
+How to nominate an article
+
+
+
+
+
+
+Navigation
+
+
+Main Page
+
+
+Articles
+
+
+Content A-Z
+
+
+Article index
+
+
+Browse articles by category
+
+
+
+
+Recent changes
+
+
+Help
+
+
+Getting started on Wookieepedia
+
+
+Uploading and using images
+
+
+Make test edits
+
+
+Report vandalism
+
+
+
+
+Frequently asked questions
+
+
+Ways to help Wookieepedia
+
+
+How Wookieepedia treats Canon and Legends
+
+
+
+
+
+
+Community
+
+
+About Wookieepedia
+
+
+Join Wookieepedia
+
+
+What Wookieepedia is not
+
+
+Download the Wookieepedia mobile app
+
+
+Star Wars VIP interviews
+
+
+Wookieepedia in other languages
+
+
+
+
+Site policies
+
+
+Copyrights
+
+
+
+
+Forums
+
+
+Senate Hall
+
+
+Knowledge Bank
+
+
+Consensus track
+
+
+Administrators' noticeboard
+
+
+Wookieepedian of the Month
+
+
+Contests and giveaways
+
+
+
+
+WookieeProjects
+
+
+Rebels
+
+
+The Old Republic
+
+
+The Clone Wars
+
+
+Aliens
+
+
+Video Games
+
+
+
+
+
+
+Contact
+
+
+Administration
+
+
+Chat
+
+
+
+
+On the Wiki
+
+
+Wiki Activity
+
+
+Random article
+
+
+Videos
+
+
+Photos
+
+
+Discussions
+
+
+
+
+
+
+
+
+
+
+ Contribute
+
+
+
+
+
+Edit this Page
+
+
+Add a Video
+
+
+Add a Photo
+
+
+Add a Page
+
+
+Wiki Activity
+
+
+
+
+
+Watchlist
+Random article
+Recent changes
+
+
+
+
+
+
+
+Jedi Commanders
+Category page
+
+
+134,283pages on this wiki
+
+		Add New Page
+
+
+
+
+ Edit
+
+
+
+
+
+Edit source
+
+
+History
+
+
+
+ Talk0
+
+
+
+
+Jedi Padawans who held the rank of Jedi Commander during the Clone Wars.
+
+
+
+
+
+Pages in category "Jedi Commanders"
+The following 68 pages are in this category, out of 68 total. Perform a category intersection.
+
+Jedi Commander/LegendsA
+Klossi Anno
+Baylis Archan
+Ren AugluB
+Baggro
+Bant Eerin's Padawan
+Bargu
+Bene/Legends
+Maris BroodC
+Cal (Jedi)D
+Winslau Da'k
+Danyawarra
+Sisseri Deo
+Tae Diath
+Hanna DingE
+Ekria
+Tallisibeth Enwandung-EsterhazyG
+Sha'a GiI
+Iguni
+Iwo Kulka's PadawanJ
+Bairdon Jace
+Zett Jukassa/Legends
+Bhat Jul
+J cont.
+Bardan JusikK
+Obs Kaj
+Karii
+Knox
+Nuru Kungurama
+Flynn KyboL
+Drake Lo'gaan
+Mak LotorM
+Whie Malreaux
+Dama MontalvoN
+Noirah Na
+Deran Nalual
+Windo NendO
+Barriss Offee/Legends
+Rennax OmaniP
+Pix
+Plo Koon's PadawanR
+Naat Reath
+Roan Shryne's first Padawan
+Roan Shryne's second PadawanS
+Joc Sah
+Shalimin
+Anakin Skywalker/Legends
+S cont.
+Olee Starstone
+Elora SundT
+T'boor
+Ahsoka Tano
+Ahsoka Tano/Legends
+Tap-Nar-Pal
+Kass Tod
+Codi TyU
+Ulu Ulix
+Unidentified Cerean Padawan
+Unidentified Human Padawan
+Unidentified Jedi Knight (Clone Wars)
+Unidentified Rodian PadawanV
+VaabeshW
+Wamtra
+Aubrie WynX
+Tyzen Xebec
+Zule XissZ
+Zeami
+Zoi
+Zonder
+Zrim
+
+
+
+Retrieved from "http://starwars.wikia.com/wiki/Category:Jedi_Commanders?oldid=6716550"
+
+
+
+Ad blocker interference detected!
+
+Wikia is a free-to-use site that makes money from advertising. We have a modified experience for viewers using ad blockers
+							Wikia is not accessible if you’ve made further modifications. Remove the custom ad blocker rule(s) and the page will load as expected.
+
+
+
+Categories: Republic Army officersJedi individuals
+
+
+
+
+			window.adslots2.push(["NATIVE_TABOOLA_ARTICLE"]);
+
+
+
+
+
+
+
+
+							wgAfterContentAndJS.push(function () {
+					window.adslots2.push(["PREFOOTER_LEFT_BOXAD"]);
+				});
+
+
+
+
+
+
+							wgAfterContentAndJS.push(function () {
+					window.adslots2.push(["PREFOOTER_RIGHT_BOXAD"]);
+				});
+
+
+
+
+
+
+
+
+
+
+
+							window.adslots2.push(["TOP_RIGHT_BOXAD"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Games
+
+
+
+
+Movies
+
+
+
+
+TV
+
+
+
+
+Explore Wikis
+
+
+
+
+
+Follow Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overview
+
+
+
+	About
+
+
+
+	Careers
+
+
+
+	Press
+
+
+
+	Contact
+
+
+
+	Wikia.org
+
+
+
+
+
+
+
+	Terms of Use
+
+
+
+	Privacy Policy
+
+
+
+	Global Sitemap
+
+
+
+	Local Sitemap
+
+
+
+
+Community
+
+
+
+	Community Central
+
+
+
+	Support
+
+
+
+	Fan Contributor Program
+
+
+
+	WAM Score
+
+
+
+	Help
+
+
+
+
+Can't find a community you love? Create your own and start something epic.
+
+
+
+	Start a wiki
+
+
+
+
+Community Apps
+Take your favorite fandoms with you and never miss a beat.
+
+
+
+
+
+
+
+
+
+
+
+
+Advertise
+
+
+
+	Media Kit
+
+
+
+	Contact
+
+
+
+
+
+
+Wookieepedia is a Fandom Movies Community. Content is available under CC-BY-SA.
+
+
+
+
+
+
+
+
+
+
+
+
+Nintendo Switch
+
+
+
+Angel and Spike
+
+
+
+Buffy
+
+
+
+
+
+
+
+
+
+
+							window.adslots2.push(["GPT_FLUSH"]);
+
+
+
+
+
+
+							window.adslots2.push(["EVOLVE_FLUSH"]);
+
+
+
+
+
+
+							window.adslots2.push(["TURTLE_FLUSH"]);
+
+
+
+
+
+
+
+
+if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Category","wgCanonicalSpecialPageName":false,"wgPageName":"Category:Jedi_Commanders","wgTitle":"Jedi Commanders","wgCurRevisionId":6716550,"wgArticleId":143702,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Republic Army officers","Jedi individuals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Category:Jedi_Commanders","wgRestrictionEdit":[],"wgRestrictionMove":[],"egMapsDebugJS":false,"egMapsAvailableServices":["googlemaps3","openlayers","leaflet"],"wgTimeAgoi18n":{"year":"a year ago","years":"%d years ago","month":"a month ago","months":"%d months ago","day":"a day ago","days":"%d days ago","hour":"an hour ago","hours":"%d hours ago","minute":"a minute ago","minutes":"%d minutes ago","seconds":"a minute ago","year-from-now":"\x26lt;timeago-year-from-now\x26gt;","years-from-now":"\x26lt;timeago-year-from-now\x26gt;","month-from-now":"a month from now","months-from-now":"%d months from now","day-from-now":"a day from now","days-from-now":"%d days from now","hour-from-now":"an hour from now","hours-from-now":"%d hours from now","minute-from-now":"a minute from now","minutes-from-now":"%d minutes from now","second-from-now":"a minute from now","seconds-from-now":"a minute from now"},"sassParams":{"background-dynamic":"true","background-image":"","background-image-height":"800","background-image-width":"2000","color-body":"#bacdd8","color-body-middle":"#bacdd8","color-buttons":"#006cb0","color-header":"#3a5766","color-links":"#006cb0","color-page":"white","oasisTypography":1,"page-opacity":"100","widthType":0},"wgAssetsManagerQuery":"/__am/%4$d/%1$s/%3$s/%2$s","wgCatId":"3","wgBlankImgUrl":"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D","wgPrivateTracker":true,"wgMainpage":"Main Page","wgExtensionsPath":"http://slot1.images.wikia.nocookie.net/__cb1489099833/common/extensions","wgResourceBasePath":"http://slot1.images.wikia.nocookie.net/__cb1489099833/common","wgSitename":"Wookieepedia","wgMWrevId":false,"wgCookieDomain":".wikia.com","wgCookiePath":"/","wgEnableNewAuthModal":true,"wgEnableWikiaPhotoGalleryExt":true,"wgOasisGrid":true,"wgEnableMediaGalleryExt":false,"wgWikiaMaxNameChars":50,"wgMinimalPasswordLength":1,"wgEnableLightboxExt":true,"wgShowAdModalInterstitialTimes":3,"fbAppId":"112328095453510","fbScript":null,"fbLogo":false,"fbLogoutURL":"/wiki/Special:UserLogout?returnto=Category:Jedi_Commanders","fbReturnToTitle":"Category:Jedi_Commanders","fbScriptLangCode":"en_US","wgEnableFacebookClientExt":true,"wgEnableWikiaFollowedPages":true,"wgFollowedPagesPagerLimit":15,"wgFollowedPagesPagerLimitAjax":600,"wgEnableWikiaBarExt":true,"wgEnableWikiaBarAds":true,"wgWikiaBarMainLanguages":["en","de","es","fr"],"wgVisualEditor":{"isPageWatched":false,"pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048,"namespacesWithSubpages":{"1":true,"2":true,"3":true,"5":true,"7":true,"8":true,"9":true,"11":true,"13":true,"15":true,"0":true,"4":true,"6":true,"10":true,"12":true,"14":true,"110":true,"111":true,"112":true,"113":true,"114":true,"115":true,"116":true,"500":true,"501":true,"502":true,"503":true,"828":true,"829":true}},"wgMaxUploadSize":10485760,"wgEnableVisualEditorUI":false,"wgEnableWikiaInteractiveMaps":false,"VignettePathPrefix":null,"reCaptchaPublicKey":"6LdDSA4TAAAAANZDWjPdTiQcYsTuge5fMPQTd7D_","wgQualarooUrl":"//s3.amazonaws.com/ki.js/52510/bgJ.js","isContributor":false,"isCurrentWikiAdmin":false,"fullVerticalName":"movies","dartGnreValues":["scifi","action","adventure","scifi"],"wgVisualEditorPreferred":true,"wgWeppyConfig":{"host":"//speed.wikia.net/__rum","sample":0.1,"aggregationInterval":1000},"wgEnablePortableInfoboxBuilderInVE":true,"wgFlowTrackingFlows":{"CREATE_PAGE_ARTICLE_REDLINK":"create-page-article-redlink","CREATE_PAGE_CONTRIBUTE_BUTTON":"create-page-contribute-button","CREATE_PAGE_CREATE_BOX":"create-page-create-box","CREATE_PAGE_INPUT_BOX":"create-page-input-box","CREATE_PAGE_CREATE_BUTTON":"create-page-create-button","CREATE_PAGE_DIRECT_URL":"create-page-direct-url","CREATE_PAGE_SPECIAL_CREATE_PAGE":"create-page-special-create-page","CREATE_PAGE_SPECIAL_REDLINK":"create-page-special-redlink","CREATE_PAGE_UNRECOGNIZED_FLOW":"create-page-unrecognized"},"wgOasisResponsive":false,"wgOasisBreakpoints":true,"verticalName":"Entertainment","wgArticleInterlangList":[],"WikiaEnableNewCreatepage":false,"ContentNamespacesText":["","Wookieepedia_Contests"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgContentReviewExtEnabled":true,"wgContentReviewTestModeEnabled":false,"wgReviewedScriptsTimestamp":"1488524707","wgScriptsTimestamp":"1488523847"});
+}if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":1,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":1,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"oasis","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":1,"watchcreations":1,"watchdefault":1,"watchdeletion":1,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"enotifdiscussionsfollows":1,"enotifdiscussionsvotes":1,"htmlemails":1,"watchlistdigest":1,"editor":2,"founderemails-joins-147":0,"founderemails-edits-147":0,"founderemails-views-digest-147":0,"founderemails-complete-digest-147":0,"visualeditor-enable":1,"visualeditor-betatempdisable":0,"visualeditor-enable-experimental":0,"visualeditor-enable-language":0,"visualeditor-hidebetawelcome":0,"useeditwarning":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":true,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs112":true,"searchNs113":false,
+"searchNs114":false,"searchNs115":false,"searchNs116":false,"searchNs117":false,"searchNs420":false,"searchNs421":false,"searchNs500":false,"searchNs501":false,"searchNs502":false,"searchNs503":false,"searchNs828":false,"searchNs829":false,"searchNs1200":false,"searchNs1201":false,"searchNs1202":false,"userlandingpage":1});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: starwars:resourceloader:filter:minify-js:7:2983713d411a799db232b0ce3c7e0a6f */
+}
+if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","amd.shared","ext.visualEditor.wikia.viewPageTarget.init","ext.categoryTree","mediawiki.user","mediawiki.page.ready","ext.bannerNotifications","ext.cookiePolicyMessages","ext.userLogin"]);
+}
+
+
+
+
+
+
+
+
+/*<![CDATA[*/ Wikia.LazyQueue.makeQueue(wgAfterContentAndJS, function(fn) {fn();}); wgAfterContentAndJS.start(); /*]]>*/
+/*<![CDATA[*/ if (typeof AdEngine_trackPageInteractive === 'function') {wgAfterContentAndJS.push(AdEngine_trackPageInteractive);} /*]]>*/
+
+
+var wgSassLoadedScss = ["skins\/oasis\/css\/oasis.scss","extensions\/wikia\/Recirculation\/styles\/recirculation.scss","extensions\/wikia\/EmbeddableDiscussions\/styles\/EmbeddableDiscussions.scss","extensions\/wikia\/PortableInfobox\/styles\/PortableInfobox.scss","extensions\/wikia\/DesignSystem\/styles\/design-system.scss","extensions\/wikia\/Qualaroo\/css\/Qualaroo.scss"];
+
+
+	require([
+		"ext.wikia.adEngine.adContext"
+	], function (adContext) {
+		var context = adContext.getContext();
+
+		if (context.opts.pageFairRecovery === true && !window.wgUserName) {
+			var adonis = adonis || {};
+adonis.ENABLE_SLOT_CACHE = true;
+/* loader-6.0.6 */!function e(n,t,i){function o(a,s){if(!t[a]){if(!n[a]){var c="function"==typeof require&&require;if(!s&&c)return c(a,!0);if(r)return r(a,!0);var l=new Error("Cannot find module '"+a+"'");throw l.code="MODULE_NOT_FOUND",l}var d=t[a]={exports:{}};n[a][0].call(d.exports,function(e){var t=n[a][1][e];return o(t?t:e)},d,d.exports,e,n,t,i)}return t[a].exports}for(var r="function"==typeof require&&require,a=0;a<i.length;a++)o(i[a]);return o}({1:[function(e,n,t){e(23);var i=e(7);i.run()},{23:23,7:7}],2:[function(e,n,t){var i=e(3);n.exports=i},{3:3}],3:[function(e,n,t){n.exports={REAL_STUN_HOST:"stun.xpanama.net:3478",TURNSIGNAL_HOST:"ts.p.xpanama.net:7000",STUNGUN_HOST:"sg.p.xpanama.net:3480",SERVER_CANDIDATE:"candidate:827648026 1 udp 2122194687 SERVER_IP SERVER_PORT typ host generation 0",REPORTING_URL:"https://lb.statsevent.com/stats",REPORTING_RATE:.01,LOG_LEVEL:"error",REPORT_ERRORS:!0,MANIFEST_URL:"https://sri.jsintegrity.com/manifest.json",MANIFEST_EXPIRATION_TIME:86400,AD_MARKER:"adonis-marker"}},{}],4:[function(e,n,t){function i(){if(s.isExpiredNow(localStorage.adonisClientManifestExpiry))return null;var e=null;try{e=JSON.parse(localStorage.adonisClientManifest)}catch(n){}return e}function o(e,n){localStorage.adonisClientManifest=JSON.stringify(e),localStorage.adonisClientManifestExpiry=(new Date).getTime()/1e3+n}function r(e,n){var t=new XMLHttpRequest;t.open("GET",a.MANIFEST_URL+"?v="+e,!0),t.onload=function(){var e={},i=!1;if(200===t.status)try{e=JSON.parse(t.responseText)}catch(o){e={}}else i=!0;n(e,i)},t.onerror=function(){n({},!0)};try{t.send(null)}catch(i){n({},!0)}}var a=e(2),s=e(6);n.exports={cacheAdonisManifest:o,getCachedAdonisManifest:i,fetchAdonisManifest:r}},{2:2,6:6}],5:[function(e,n,t){function i(e){var n=new XMLHttpRequest,t=[l.REPORTING_URL,e].join("");n.open("GET",t,!0),n.send()}function o(e){i("/adonis_error?e="+e.toString())}function r(){return null!=window.ADONIS_BOOTSTRAP_STATS?window.ADONIS_BOOTSTRAP_STATS===!0:Math.random()<l.REPORTING_RATE}function a(e,n){if(s(e),r()){var t={website:window.location.hostname,key:e};null!=n&&(t.quantity=n),i(["/adonis_event/?event=",JSON.stringify(t)].join(""))}}function s(e){var n={key:e,time_ms:Math.round(window.performance.now()),website:window.location.hostname};u.push(n)}function c(){d.defineReadOnlyProperty("adonisBootstrapTiming",u)}var l=e(2),d=e(6),u=[];n.exports={reportError:o,reportEvent:a,saveTiming:c,shouldReport:r}},{2:2,6:6}],6:[function(e,n,t){function i(e,n){Object.defineProperty(window,e,{value:n,writable:!1})}function o(e,n){return!n||Number(n)<=e}function r(e){var n=(new Date).getTime()/1e3;return o(n,e)}var a=function(){var e=window.navigator.userAgent.toLowerCase(),n=/(chrome)[ \/]([\w.]+)/.exec(e)||/(firefox)[ \/]([\w.]+)/.exec(e);if(null!==n){var t=n[1],i=n[2],o=parseInt(i.split(".")[0]);if("chrome"===t&&o>=41||"firefox"===t&&o>=37)return!0}return!1},s=function(e){"loading"!==document.readyState?e():document.addEventListener("DOMContentLoaded",e)};n.exports={isSupportedBrowser:a,defineReadOnlyProperty:i,ready:s,isExpired:o,isExpiredNow:r}},{}],7:[function(e,n,t){function i(e,n){return{host:"assets",path:e,headers:n}}function o(e,n,t){d.reportEvent("bootstrap.runclientscript"),d.saveTiming(),u.defineReadOnlyProperty("adonisConn",n),u.defineReadOnlyProperty("adonisConfig",l);var i=new Blob([e],{type:"text/javascript"}),o=URL.createObjectURL(i),a=p.getCachedAdonisManifest();return a&&a.hasOwnProperty(t)?void r(o,a[t],!1):void p.fetchAdonisManifest(t,function(e,n){p.cacheAdonisManifest(e,f),r(o,e[t],n)})}function r(e,n,t){if(t||n){var i=document.createElement("script");i.src=e,n&&(i.integrity=n),document.head.appendChild(i)}}function a(){}function s(){if(d.reportEvent("bootstrap.pageview"),u.isSupportedBrowser()){if(d.reportEvent("bootstrap.supported"),u.ready(function(){var e=document.querySelectorAll("["+h+"]");d.reportEvent("bootstrap.admarker",e.length)}),l.DEVELOPER_MODE){console.log("Developer mode is enabled. Fetching adonis client from:",l.ADONIS_CLIENT_FETCH_URL),localStorage.adonisClientVersion="6.0.0";var e=document.createElement("script");return e.src=l.ADONIS_CLIENT_FETCH_URL,void document.head.appendChild(e)}var n="undefined"!=typeof Storage;if(n){d.reportEvent("bootstrap.enabled");var t=localStorage.adonisCacheExpiry,r=localStorage.adonisCacheSrc,a=localStorage.adonisClientVersion,s=(new Date).getTime()/1e3;if(!u.isExpired(s,t)&&a&&r)d.reportEvent("bootstrap.cached"),o(r,null,localStorage.adonisClientVersion);else{d.reportEvent("bootstrap.expired");var p=new c(l.SERVER_CANDIDATE,l.REAL_STUN_HOST,l.TURNSIGNAL_HOST,l.STUNGUN_HOST,g);l.PANAMA_CLIENT&&l.PANAMA_CLIENT.SKIP_IP_LEAK_CHECK&&(p.skipIpLeakCheck=l.PANAMA_CLIENT.SKIP_IP_LEAK_CHECK),l.PANAMA_CLIENT&&l.PANAMA_CLIENT.CANDIDATE_WHITELISTED_IP&&(p.candidateWhitelistedIp=l.PANAMA_CLIENT.CANDIDATE_WHITELISTED_IP),p.setLogLevel(l.LOG_LEVEL),p.on("open",function(){d.reportEvent("bootstrap.panama_opened");var e=i("client",{adonis_client_api:"6.0.0"});p.request(e,function(e,n,t){if(d.reportEvent("bootstrap.client_fetched."+t),n){if(n["cache-control"]){var i=Number(n["cache-control"].split("=")[1]),a=s+i;localStorage.adonisCacheExpiry=a}n["adonis-client-version"]&&(localStorage.adonisClientVersion=n["adonis-client-version"])}304===t?o(r,p,localStorage.adonisClientVersion):200===t?(localStorage.adonisCacheSrc=e,o(e,p,localStorage.adonisClientVersion)):g(e)})}),d.reportEvent("bootstrap.panama_opening"),p.open()}}}}var c=e(8),l=e(2),d=e(5),u=e(6),p=e(4),f=l.MANIFEST_EXPIRATION_TIME||0;window.adonisHash=window.location.hash;l.LOG_LEVEL=window.adonisHash.indexOf("adonis-logging")!==-1?"debug":l.LOG_LEVEL;var h=l.AD_MARKER||"adonis-marker";window.adonisConn=void 0,window.adonisConfig=l,window.adonisBootstrapTiming=void 0;var g=l.REPORT_ERRORS?d.reportError:a;n.exports={runClientScript:o,insertScriptTag:r,run:s}},{2:2,4:4,5:5,6:6,8:8}],8:[function(e,n,t){function i(e,n,t,i,o){this.realStunHost=n,this.turnSignalHost=t,this.stunGunHost=i,this.serverCandidate=e,this.nodePeerPort=null,this.nodePeerIp=null,this.localCandidates=[],this.sentDataToTurn=!1,this.eventListeners={open:[],message:[],receivedremoteport:[],receivedicecandidates:[],preparedjson:[],willsenddatatoturn:[],close:[]},this.ips={},this.requests={},this.isOpen=!1,o&&(this.handleError=o),this.timingEvents=[],this.skipIpLeakCheck=!1,this.candidateWhitelistedIp=null}function o(){var e=this,n={iceServers:[{url:"stun:"+this.stunGunHost,urls:["stun:"+this.stunGunHost],username:"test",credential:"test"}]};m.info("Connecting to stungun server : "+this.stunGunHost);var t=this.stunGunPeerConnection=new C(n);t.createDataChannel(""),t.createOffer(function(n){t.setLocalDescription(n,function(){e.addTimingEvent("requestingServerIp",performance.now()-e.estConnectionStart)},function(){})},function(){}),t.onicecandidate=function(n){if(null!==n.candidate){var i=n.candidate.candidate;if(m.debug("onicecandidate: "+i),e.skipIpLeakCheck||e.checkCandidateIpLeak(i),g.isServerReflexive(i)&&!g.isIPv6(i)){t.close();var o=g.matchNodePeerIpAndPort(i);if(null!==o){e.addTimingEvent("serverIpReceived",performance.now()-e.estConnectionStart),e.nodePeerIp=o[1],e.nodePeerPort=o[2],m.info("ip and port to connect on: "+e.nodePeerIp+":"+e.nodePeerPort);var r=e.serverCandidate.replace(/SERVER_PORT/g,e.nodePeerPort);r=r.replace(/SERVER_IP/g,e.nodePeerIp),m.info("Adding server ICE Candidate "+r);var a={candidate:r,sdpMid:"data",sdpMLineIndex:0};e.peerConnection.addIceCandidate(new y(a),h,e.handleError),e.triggerEvent("receivedremoteport"),e.remoteCandidateReceived=!0,d.call(e)}}}}}function r(){var e=this.peerConnection=new C({iceServers:[{url:"stun:"+this.realStunHost,urls:["stun:"+this.realStunHost]}]}),n=this;this.peerConnection.onicecandidate=function(e){if(null!==e.candidate){var t=e.candidate.candidate;m.info("RECEVIED LOCAL CANDIDATE "+t),n.skipIpLeakCheck||n.checkCandidateIpLeak(t);var i=g.isServerReflexive(t);n.candidateWhitelistedIp&&(i=t.indexOf(n.candidateWhitelistedIp)&&!g.isServerReflexive(t)),i&&!g.isIPv6(t)&&(n.addTimingEvent("iceCandidate",performance.now()-n.estConnectionStart),n.localCandidates.push(t),n.localCandidateReceived=!0,d.call(n))}},this.peerConnection.ondatachannel=function(e){n.dataChannel=e.channel,n.turnSignalPeerConnection.close(),m.info("ondatachannel",n.dataChannel.label,n.dataChannel.readyState),n.dataChannel.binaryType="arraybuffer",n.dataChannel.onopen=function(){n.isOpen=!0,m.info("onopen");var e=performance.now(),t=e-n.estConnectionStart;n.addTimingEvent("dataChannelOpen",t);var i={host:"test"};n.request(i,function(){var t=performance.now()-e;n.addTimingEvent("msgRoundTrip",t),clearTimeout(n.connectionTimeout),setTimeout(function(){n.close()},T)}),m.info("TIMING:total "+t),m.info("onopen"),n.triggerEvent("open"),n.messageSendStartTime=performance.now()},n.dataChannel.onmessage=function(e){var t=e.data;m.info("Received response chunk",t),n.triggerEvent("message",t);try{var i=v.handleChunk(t)}catch(o){return void m.error("Failed to process chunked response: ",o)}i&&(m.info("Received complete response. Handling it"),a.call(n,i.id,i.http))},n.dataChannel.onclose=function(){m.info("onClose"),n.triggerEvent("close")},n.dataChannel.onerror=n.handleError},this.peerConnection.onsignalingstatechange=function(){m.info("signaling state change: ",e.iceConnectionState)},this.peerConnection.oniceconnectionstatechange=function(){var t=performance.now();m.info("ice connection state change: ",e.iceConnectionState,"after ",t-n.estConnectionStart,"millis")},this.peerConnection.onicegatheringstatechange=function(){m.info("ice gathering state change: ",e.iceConnectionState)},s.call(this)}function a(e,n){var t=n.headers;t&&t["set-cookie"]&&(document.cookie=t["set-cookie"]);var i=this.requests[e];i(n.body,n.headers,n.status),delete this.requests[e]}function s(){var e={type:"offer",sdp:"v=0\r\no=- 7745999191240241858 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=msid-semantic: WMS\r\nm=application 9 DTLS/SCTP 5000\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:3qmHhNXjf0LEoY5G\r\na=ice-pwd:D9uox96QDNbrCdbN9WUlLAJu\r\na=ice-options:google-ice\r\na=fingerprint:sha-1 8E:5A:C4:E7:A7:53:E8:C1:39:19:59:47:4F:4C:E8:54:F7:38:DF:A2\r\na=setup:actpass\r\na=mid:data\r\na=sctpmap:5000 webrtc-datachannel 1024\r\n"};m.info("SETTING HARD CODED offer data : "+e.sdp);var n=new S(e);this.peerConnection.setRemoteDescription(n,c.bind(this),this.handleError),c.bind(this)}function c(){this.peerConnection.createAnswer(l.bind(this),this.handleError),this.iceCandidateStartTime=performance.now()}function l(e){this.answer=e,this.peerConnection.setLocalDescription(new S(e),u.bind(this),this.handleError),this.localDescriptionSet=!0,d.call(this)}function d(){!this.sentDataToTurn&&this.remoteCandidateReceived&&this.localCandidateReceived&&this.localDescriptionSet&&(m.debug("sending data to TURN"),p.call(this),this.sentDataToTurn=!0)}function u(){m.info("Sending answer"),this.addTimingEvent("setLocalDesc",performance.now()-this.estConnectionStart)}function p(){this.triggerEvent("receivedicecandidates");var e=performance.now();m.info("TIMING:ice_candidates "+(e-this.iceCandidateStartTime));var n=/a=ice-ufrag:[ -z]*/,t=/a=ice-pwd:[ -z]*/,i=/a=fingerprint:[A-z0-9\-]* [0-F:]*/,o=/o=-?\S* [0-9]+ [0-9] IN IP4 [0-9\.]+/,r=performance.now();m.info("Before matching regexes"+(r-this.estConnectionStart)),m.info(this.answer.sdp);var a=this.answer.sdp.match(n),s=this.answer.sdp.match(t),c=this.answer.sdp.match(i),l=this.answer.sdp.match(o);m.info("UFRAG:"+a),m.info("PWD:"+s),m.info("FINGERPRINT:"+c),m.info("O=:"+l);var d=[this.localCandidates];d.push(a[0]),d.push(s[0]),d.push(c[0]),d.push(l[0]);var u=new Uint8Array(8);window.crypto.getRandomValues(u);var p=String.fromCharCode.apply(null,u);d.push(p),d.push(this.nodePeerIp),d.push(this.nodePeerPort),this.triggerEvent("preparedjson",d);var h=performance.now();m.info("After matching regexes"+(h-this.estConnectionStart));var g=performance.now();m.info("Before jsonifying candidates"+(g-this.estConnectionStart));var v=JSON.stringify(d),w=performance.now();m.info("After jsonifying candidates"+(w-this.estConnectionStart)),f.call(this,v)}function f(e){this.triggerEvent("willsenddatatoturn",e);var n=performance.now()-this.estConnectionStart;this.addTimingEvent("turnPrep",n),m.debug("Sending data to turn @ "+this.turnSignalHost+" after "+n+" millis");var t={iceServers:[{url:"turn:"+this.turnSignalHost,urls:["turn:"+this.turnSignalHost],username:e,credential:"x"}]};this.turnSignalPeerConnection=new C(t),this.turnSignalPeerConnection.createDataChannel("");var i=this;this.turnSignalPeerConnection.createOffer(function(e){var n=performance.now(),t=n-i.estConnectionStart;i.addTimingEvent("turnSend",t),m.info("Fake offer generated which should trigger TURN request after "+(n-i.estConnectionStart)+" millis"),i.turnSignalPeerConnection.setLocalDescription(e,function(){},function(){})},function(){})}function h(){m.info("Successfully added ICE candidate")}const g=e(21),v=e(22),w=e(17);w.enable();const m=w("panama-client");var C=window.RTCPeerConnection||window.mozRTCPeerConnection||window.webkitRTCPeerConnection,S=window.RTCSessionDescription||window.mozRTCSessionDescription||window.webkitRTCSessionDescription,y=window.RTCIceCandidate||window.mozRTCIceCandidate||window.webkitRTCIceCandidate,E=15e3,T=3e5;i.prototype.handleError=function(){},i.prototype.getTimingEvents=function(){return this.timingEvents},i.prototype.addTimingEvent=function(e,n){var t={name:"t_"+e,timing:n};this.timingEvents.push(t)},i.prototype.open=function(){var e=this;this.connectionTimeout=setTimeout(function(){e.close()},E),this.estConnectionStart=performance.now(),setTimeout(function(){m.debug("v8Lag is : "+(performance.now()-e.estConnectionStart)),e.addTimingEvent("v8Lag",performance.now()-e.estConnectionStart)},1),o.call(this),r.call(this)},i.prototype.send=function(e){m.info("sending message",e),this.dataChannel.send(e)},i.prototype.request=function(e,n){var t=v.buildRequest(e),i=v.buildTerminator(t.id);this.requests[t.id]=n,this.send(JSON.stringify(t)),this.send(JSON.stringify(i))},i.prototype.close=function(){this.dataChannel&&(this.dataChannel.close(),this.dataChannel=null),this.peerConnection&&"closed"!==this.peerConnection.signalingState&&(console.log("Closed PC"),this.peerConnection.close()),this.stunGunPeerConnection&&"closed"!==this.stunGunPeerConnection.signalingState&&(console.log("Closed Stungun PC"),this.stunGunPeerConnection.close()),this.turnSignalPeerConnection&&"closed"!==this.turnSignalPeerConnection.signalingState&&(console.log("Closed Turnsignal PC"),this.turnSignalPeerConnection.close())},i.prototype.on=function(e,n){e in this.eventListeners&&this.eventListeners[e].push(n)},i.prototype.triggerEvent=function(e){if(e in this.eventListeners){var n=Array.prototype.slice.call(arguments,1);this.eventListeners[e].forEach(function(e){e.apply(this,n)})}},i.prototype.setLogLevel=function(e){w.suggest.clear().deny("panama-client",e)},i.prototype.checkCandidateIpLeak=function(e){if(!g.isIPv6(e)&&e.indexOf("typ host")!==-1){var n=g.extractCandidateIp(e);n&&(this.ips[n]=!0,Object.keys(this.ips).length>=2&&(m.info("Multiple private IPs detected. Closing the connection."),this.close()))}},window.PanamaClient=i,n.exports=i},{17:17,21:21,22:22}],9:[function(e,n,t){function i(){this.enabled=!0,this.defaultResult=!0,this.clear()}function o(e,n){return e.n.test?e.n.test(n):e.n==n}var r=e(11),a={debug:1,info:2,warn:3,error:4};r.mixin(i),i.prototype.allow=function(e,n){return this._white.push({n:e,l:a[n]}),this},i.prototype.deny=function(e,n){return this._black.push({n:e,l:a[n]}),this},i.prototype.clear=function(){return this._white=[],this._black=[],this},i.prototype.test=function(e,n){var t,i=Math.max(this._white.length,this._black.length);for(t=0;t<i;t++){if(this._white[t]&&o(this._white[t],e)&&a[n]>=this._white[t].l)return!0;if(this._black[t]&&o(this._black[t],e)&&a[n]<this._black[t].l)return!1}return this.defaultResult},i.prototype.write=function(e,n,t){if(!this.enabled||this.test(e,n))return this.emit("item",e,n,t)},n.exports=i},{11:11}],10:[function(e,n,t){var i=e(11),o=e(9),r=new i,a=Array.prototype.slice;t=n.exports=function(e){var n=function(){return r.write(e,void 0,a.call(arguments)),n};return n.debug=function(){return r.write(e,"debug",a.call(arguments)),n},n.info=function(){return r.write(e,"info",a.call(arguments)),n},n.warn=function(){return r.write(e,"warn",a.call(arguments)),n},n.error=function(){return r.write(e,"error",a.call(arguments)),n},n.log=n.debug,n.suggest=t.suggest,n.format=r.format,n},t.defaultBackend=t.defaultFormatter=null,t.pipe=function(e){return r.pipe(e)},t.end=t.unpipe=t.disable=function(e){return r.unpipe(e)},t.Transform=i,t.Filter=o,t.suggest=new o,t.enable=function(){return t.defaultFormatter?r.pipe(t.suggest).pipe(t.defaultFormatter).pipe(t.defaultBackend):r.pipe(t.suggest).pipe(t.defaultBackend)}},{11:11,9:9}],11:[function(e,n,t){function i(){}var o=e(20);o.mixin(i),i.prototype.write=function(e,n,t){this.emit("item",e,n,t)},i.prototype.end=function(){this.emit("end"),this.removeAllListeners()},i.prototype.pipe=function(e){function n(){e.write.apply(e,Array.prototype.slice.call(arguments))}function t(){!e._isStdio&&e.end()}var i=this;return i.emit("unpipe",e),e.emit("pipe",i),i.on("item",n),i.on("end",t),i.when("unpipe",function(o){var r=o===e||"undefined"==typeof o;return r&&(i.removeListener("item",n),i.removeListener("end",t),e.emit("unpipe")),r}),e},i.prototype.unpipe=function(e){return this.emit("unpipe",e),this},i.prototype.format=function(e){throw new Error(["Warning: .format() is deprecated in Minilog v2! Use .pipe() instead. For example:","var Minilog = require('minilog');","Minilog","  .pipe(Minilog.backends.console.formatClean)","  .pipe(Minilog.backends.console);"].join("\n"))},i.mixin=function(e){var n,t=i.prototype;for(n in t)t.hasOwnProperty(n)&&(e.prototype[n]=t[n])},n.exports=i},{20:20}],12:[function(e,n,t){var i=e(11),o=[],r=new i;r.write=function(e,n,t){o.push([e,n,t])},r.get=function(){return o},r.empty=function(){o=[]},n.exports=r},{11:11}],13:[function(e,n,t){var i=e(11),o=/\n+$/,r=new i;r.write=function(e,n,t){var i=t.length-1;if("undefined"!=typeof console&&console.log){if(console.log.apply)return console.log.apply(console,[e,n].concat(t));if(JSON&&JSON.stringify){t[i]&&"string"==typeof t[i]&&(t[i]=t[i].replace(o,""));try{for(i=0;i<t.length;i++)t[i]=JSON.stringify(t[i])}catch(r){}console.log(t.join(" "))}}},r.formatters=["color","minilog"],r.color=e(14),r.minilog=e(15),n.exports=r},{11:11,14:14,15:15}],14:[function(e,n,t){var i=e(11),o=e(16),r={debug:["cyan"],info:["purple"],warn:["yellow",!0],error:["red",!0]},a=new i;a.write=function(e,n,t){var i=console.log;console[n]&&console[n].apply&&(i=console[n],i.apply(console,["%c"+e+" %c"+n,o("gray"),o.apply(o,r[n])].concat(t)))},a.pipe=function(){},n.exports=a},{11:11,16:16}],15:[function(e,n,t){var i=e(11),o=e(16),r={debug:["gray"],info:["purple"],warn:["yellow",!0],error:["red",!0]},a=new i;a.write=function(e,n,t){var i=console.log;"debug"!=n&&console[n]&&(i=console[n]);var a=0;if("info"!=n){for(;a<t.length&&"string"==typeof t[a];a++);i.apply(console,["%c"+e+" "+t.slice(0,a).join(" "),o.apply(o,r[n])].concat(t.slice(a)))}else i.apply(console,["%c"+e,o.apply(o,r[n])].concat(t))},a.pipe=function(){},n.exports=a},{11:11,16:16}],16:[function(e,n,t){function i(e,n){return n?"color: #fff; background: "+o[e]+";":"color: "+o[e]+";"}var o={black:"#000",red:"#c23621",green:"#25bc26",yellow:"#bbbb00",blue:"#492ee1",magenta:"#d338d3",cyan:"#33bbc8",gray:"#808080",purple:"#708"};n.exports=i},{}],17:[function(e,n,t){var i=e(10),o=i.enable,r=i.disable,a="undefined"!=typeof navigator&&/chrome/i.test(navigator.userAgent),s=e(13);if(i.defaultBackend=a?s.minilog:s,"undefined"!=typeof window){try{i.enable(JSON.parse(window.localStorage.minilogSettings))}catch(c){}if(window.location&&window.location.search){var l=RegExp("[?&]minilog=([^&]*)").exec(window.location.search);l&&i.enable(decodeURIComponent(l[1]))}}i.enable=function(){o.call(i,!0);try{window.localStorage.minilogSettings=JSON.stringify(!0)}catch(e){}return this},i.disable=function(){r.call(i);try{delete window.localStorage.minilogSettings}catch(e){}return this},t=n.exports=i,t.backends={array:e(12),browser:i.defaultBackend,localStorage:e(19),jQuery:e(18)}},{10:10,12:12,13:13,18:18,19:19}],18:[function(e,n,t){function i(e){this.url=e.url||"",this.cache=[],this.timer=null,this.interval=e.interval||3e4,this.enabled=!0,this.jQuery=window.jQuery,this.extras={}}var o=e(11),r=(new Date).valueOf().toString(36);o.mixin(i),i.prototype.write=function(e,n,t){this.timer||this.init(),this.cache.push([e,n].concat(t))},i.prototype.init=function(){if(this.enabled&&this.jQuery){var e=this;this.timer=setTimeout(function(){var n,t,i=[],o=e.url;if(0==e.cache.length)return e.init();for(n=0;n<e.cache.length;n++)try{JSON.stringify(e.cache[n]),i.push(e.cache[n])}catch(a){}e.jQuery.isEmptyObject(e.extras)?(t=JSON.stringify({logs:i}),o=e.url+"?client_id="+r):t=JSON.stringify(e.jQuery.extend({logs:i},e.extras)),e.jQuery.ajax(o,{type:"POST",cache:!1,processData:!1,data:t,contentType:"application/json",timeout:1e4}).success(function(n,t,i){n.interval&&(e.interval=Math.max(1e3,n.interval))}).error(function(){e.interval=3e4}).always(function(){e.init()}),e.cache=[]},this.interval)}},i.prototype.end=function(){},i.jQueryWait=function(e){return"undefined"!=typeof window&&(window.jQuery||window.$)?e(window.jQuery||window.$):void("undefined"!=typeof window&&setTimeout(function(){i.jQueryWait(e)},200))},n.exports=i},{11:11}],19:[function(e,n,t){var i=e(11),o=!1,r=new i;r.write=function(e,n,t){if("undefined"!=typeof window&&"undefined"!=typeof JSON&&JSON.stringify&&JSON.parse)try{o||(o=window.localStorage.minilog?JSON.parse(window.localStorage.minilog):[]),o.push([(new Date).toString(),e,n,t]),window.localStorage.minilog=JSON.stringify(o)}catch(i){}},n.exports=r},{11:11}],20:[function(e,n,t){function i(){this._events={}}i.prototype={on:function(e,n){this._events||(this._events={});var t=this._events;return(t[e]||(t[e]=[])).push(n),this},removeListener:function(e,n){var t,i=this._events[e]||[];for(t=i.length-1;t>=0&&i[t];t--)i[t]!==n&&i[t].cb!==n||i.splice(t,1)},removeAllListeners:function(e){e?this._events[e]&&(this._events[e]=[]):this._events={}},emit:function(e){this._events||(this._events={});var n,t=Array.prototype.slice.call(arguments,1),i=this._events[e]||[];for(n=i.length-1;n>=0&&i[n];n--)i[n].apply(this,t);return this},when:function(e,n){return this.once(e,n,!0)},once:function(e,n,t){function i(){t||this.removeListener(e,i),n.apply(this,arguments)&&t&&this.removeListener(e,i)}return n?(i.cb=n,this.on(e,i),this):this}},i.mixin=function(e){var n,t=i.prototype;for(n in t)t.hasOwnProperty(n)&&(e.prototype[n]=t[n])},n.exports=i},{}],21:[function(e,n,t){n.exports.getPortNoFromCandidate=function(e){var n=/([0-9]+) ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}) ([0-9]+)/.exec(e)||[];return n[3]||null},n.exports.isServerReflexive=function(e){return e.indexOf("srflx")!==-1},n.exports.isIPv6=function(e){return/([0-9a-fA-F]){1,4}(:([0-9a-fA-F]){1,4}){7}/.test(e)},n.exports.extractCandidateIp=function(e){var n=/[0-9]+ ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}) [0-9]+/.exec(e);return n&&n.length>1?n[1]:null},n.exports.matchNodePeerIpAndPort=function(e){return e.match(/candidate:[0-9]+ [0-9]+ udp [0-9]+ ([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}) ([0-9]*)/i)}},{}],22:[function(e,n,t){function i(){return Math.floor(99999*Math.random()+1)}function o(e){var n=i().toString(),t={id:n,version:l,http:e};return t}function r(e){var n={id:e,version:l,http:"TERMINATOR"};return n}function a(e){var n=null;try{n=JSON.parse(d+e)}catch(t){d+=e}return n&&(d=""),n}function s(e){if(!e.http||!e.id)throw new Error("Fields `id` and `http` are mandatory.");var n=e.id;if("TERMINATOR"===e.http){if(!u[n])return null;var t=u[n];return u[n]=null,t}return u[n]?u[n].http.body+=e.http.body:u[n]=e,null}function c(e){var n=a(e);if(!n)return null;var t=s(n);return t}var l="1.0",d="",u={};n.exports={buildRequest:o,buildTerminator:r,handleChunk:c,accumulateJSON:a,accumulateResponse:s}},{}],23:[function(e,n,t){function i(e){"performance"in e||(e.performance={});var n=e.performance;e.performance.now=n.now||n.mozNow||n.msNow||n.oNow||n.webkitNow||Date.now||function(){return(new Date).getTime()}}i(self)},{}]},{},[1]);
+
+		}
+	});
+
+
+
+
+
+
+Process finished with exit code 0
