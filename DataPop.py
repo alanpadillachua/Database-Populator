@@ -10,12 +10,12 @@ import urllib.request
 from bs4 import BeautifulSoup
 
 
-def parsejedi(htmltxt):
+def parse_jedi(htmltxt):
     htmltxt.split(" ")
     num = 0
     print("Jedi Generals Parsed " + str(num))
     num += 1
-    return
+
 
 with urllib.request.urlopen("http://starwars.wikia.com/wiki/Category:Jedi_Commanders") as url:
     r = url.read()
