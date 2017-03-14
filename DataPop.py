@@ -4,7 +4,7 @@ with urllib.request.urlopen("http://starwars.wikia.com/wiki/Category:Jedi_Comman
     r = url.read()
 soup = BeautifulSoup(r, "html.parser")
 
-print(type(soup))
+print(soup.prettify())
 
 
 
